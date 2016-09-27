@@ -1,0 +1,115 @@
+body {
+    background-image: url("http://theesteps.com/wp-content/uploads/2015/01/clean-white-polygon-backgrounds-101.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 90%;
+
+}
+a{
+    color: #21af2b;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h1{
+    color: whitesmoke;
+}
+h2{
+    color: #21af2b;
+}
+#encabezado{
+    background-color: #00CED1;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom:20px;
+    width: 107%;
+    border-radius: 10px;
+}
+
+#menu{
+    float: right;
+}
+
+#menu ul, #menu ul li{
+    display: inline-block;
+}
+
+#menu ul li{
+    padding: 20px 20px 20px 20px;
+    background-color: #cccccc;
+}
+
+#menu ul li a{
+    color:blue;
+    text-decoration: none;
+}
+
+#menu ul li:hover{
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+#contenido{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.panel{
+    background-color: transparent;
+    display:inline-block;
+}
+
+#leftPanel{
+    width:15%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+    vertical-align: top;
+}
+
+#leftPanel ul li{
+    padding: 5px 5px 5px 5px;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    list-style: none;
+}
+
+#leftPanel ul li:hover{
+    background: #35ff13;
+}
+
+#rightPanel ul li{
+    display: inline;
+}
+
+.imagen_p{
+    width: 350px;
+    height: 245px;
+}
+#footer {
+    position:fixed;
+    bottom:0;
+    color: white;
+    padding: 1em 0;
+}

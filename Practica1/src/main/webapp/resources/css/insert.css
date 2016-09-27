@@ -1,0 +1,91 @@
+body{
+    background-image: url("http://theesteps.com/wp-content/uploads/2015/01/clean-white-polygon-backgrounds-101.jpg");
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color: #21af2b;
+    text-decoration:double;
+    font-family: SansSerif;
+    font-style: italic;
+    font-size: 40px;
+}
+label{
+    font-size: 20px;
+    color: #2522af;
+    text-decoration:double;
+    font-family: SansSerif;
+
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #21af2b
+}
+.select-style {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+input {
+    width: 100%;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input {
+    border: none;
+    border-bottom: 2px solid #21af2b;
+}
+input{
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#footer {
+    position:fixed;
+    bottom:0;
+    color: white;
+    padding: 1em 0;
+}
