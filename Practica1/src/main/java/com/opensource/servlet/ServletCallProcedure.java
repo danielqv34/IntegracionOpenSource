@@ -12,6 +12,9 @@ import java.sql.SQLException;
 /**
  * Created by ezequ on 9/15/2016.
  */
+/*Clase para la llamada de procedure que generar archivos 
+desde oracle
+*/
 @WebServlet(name = "ServletCallProcedure")
 public class ServletCallProcedure extends HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
@@ -23,7 +26,7 @@ public class ServletCallProcedure extends HttpServlet {
              *Llamada al prodecure que genera los archivos de los Articulos)
              * */
              String callProcedure = "{call PROC_GENERA_ARCHIVO_ENTIDADES()}";
-           /*Ejecucion de procedure*/
+           /*Llamada de procedure*/
             OraclePreparedStatement callableStatement = (OraclePreparedStatement) conexion.getConnection().prepareStatement(callProcedure);
 
             /**
