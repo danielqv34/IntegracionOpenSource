@@ -1,3 +1,8 @@
+/******************************************************************************
+Proceso que genera archivos .txt a partir de una tabla en la base de datos.   *
+@Autor :Daniel Quiroz                                                         *
+@Fecha :Sep 26, 2016                                                          *
+*******************************************************************************/
 CREATE OR REPLACE PROCEDURE PROC_GENERA_ARCHIVO_ENTIDADES AS
 
 ENCABEZADO VARCHAR2(1000);
